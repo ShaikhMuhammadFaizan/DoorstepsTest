@@ -1,0 +1,231 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height:100vh;
+  position:absolute;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.customeNav{
+  background-color: #f1f1f1 !important;
+  padding: 1%;
+  background-size: cover;
+  height: 10%;
+}
+
+.landing-page{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.landing-page>h5{
+  margin-top: 20px;
+  color: #323642;
+}
+
+.Login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ padding: 3%;
+ /* text-align: left; */
+ background-color: #F8F9F9;
+
+}
+.create-experiment-area>TextField{
+  margin-right: 10px !important;
+}
+
+.select-aspect{
+  width: 100%;
+  padding: 5%;
+  background-color: #32324d;
+}
+
+
+.text-field{
+  margin-bottom: 5px !important;
+}
+
+.create-experiment-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5%;
+  width: 80%;
+}
+.experiment-list-element{
+  margin-top:3%;
+  padding: 4%;
+  padding-bottom:4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  color: #ff6a5a;
+}
+
+.nav-attempt-button{
+  background-color: #ff6a5a !important;
+
+}
+
+.experiment-list{
+  margin-top:3% !important;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.experiment-list-item{
+  background-color: #F7F9F9;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.experiment-list-item:hover{
+  background-color: #ECF0F1;
+}
+
+.experiment-form-element{
+  padding:4%;
+}
+.add-experiment-form-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-experiment-form{
+  margin: 4%;
+  width: 90%;
+}
+.add-experiment-form-question-section{
+  margin-top: 2%;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+text-align: left;
+}
+
+.generation-question-area{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.question-section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.question-text{
+  width: 100%;
+}
+
+.answer-type-element{
+  margin-top: 3%;
+
+}
+
+.expSubmitBtn{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin-top: 5% !important;
+  width: 30%;
+  padding: 2% !important;
+  background-color: #ff6a5a !important;
+}
+
+.experiment-list-head {
+  background-color:#E5E7E9 ;
+  font-size: 24px;
+}
+.experiment-list-head,TableCell{
+  font-size: 24px;
+}
+
+.experiment-list-render:hover{
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+.experiment-attemp-area{
+  background-color: #d7e1e8;
+  color: #323642;
+  text-align: left;
+  padding: 5%;
+  margin: 4%;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.attemp-question-section{
+  margin-top: 5%;
+}
+
+.multiline-textaera{
+  width: 100%;
+  background-color: #c9d2d8;
+  border: 1px solid #b9c1c6;
+  border-radius: 5px;
+  color: #323642; 
+  padding: 1%;
+}
+.multiline-textaera:focus{
+  border: 2px solid #9ca2a6;
+  outline: none;
+}
+
+.thankyou-page{
+  width: 100%;
+  height: 80%;
+  
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.thankyou-page>p{
+  font-size: 20px;
+}
